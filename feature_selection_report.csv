@@ -1,0 +1,13 @@
+Feature,Feature_Type,Method,Score,Abs_Score,Decision
+Age,Numeric,Pearson correlation,0.309482,0.309482,Keep
+Weight,Numeric,Pearson correlation,0.078577,0.078577,Remove
+BMI,Numeric,Pearson correlation,0.212618,0.212618,Keep
+Dependents,Numeric,Pearson correlation,0.093214,0.093214,Review
+Smoker,Numeric,Pearson correlation,0.76809,0.76809,Keep
+BloodPressure,Numeric,Pearson correlation,0.030325,0.030325,Remove
+Diabetes,Numeric,Pearson correlation,0.128877,0.128877,Keep
+Regular_Exercise,Numeric,Pearson correlation,-0.067259,0.067259,Remove
+Sex,Categorical,Average medical cost by category,630.35,,Review
+Hereditary_Diseases,Categorical,Average medical cost by category,29618.1,,Keep
+City,Categorical,Average medical cost by category,2846.57,,Keep
+Job_Title,Categorical,Average medical cost by category,5695.74,,Keep
